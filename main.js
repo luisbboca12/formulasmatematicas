@@ -67,3 +67,4 @@ function calcularCirculo(radio) {
 console.log(calcularCirculo(4))
 console.groupEnd('circulo')
 
+// Holaaa

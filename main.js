@@ -41,3 +41,29 @@ function cuadrado(lado1) {
 }
 console.log(cuadrado(5))
 console.groupEnd('Cuadrado')
+console.group('circulo')
+// const radioCirculo = 3
+// const diametroCirculo = radioCirculo * 2
+// const PI= 3.1415
+
+// const circunferencia = diametroCirculo * PI
+// const areaCirculo = (radioCirculo ** 2)* PI
+// console.log({
+//     radioCirculo,
+//     diametroCirculo,
+//     PI,
+//     circunferencia,
+//     areaCirculo
+// })
+function calcularCirculo(radio) {
+    const diametro = radio * 2
+    return{
+        diametro : radio * 2,
+        circunferencia : (radio*2) * Math.PI.toFixed(3),
+        area : Math.pow(radio,2)* Math.PI.toFixed(3)
+    }
+    
+}
+console.log(calcularCirculo(4))
+console.groupEnd('circulo')
+
